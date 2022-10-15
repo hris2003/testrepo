@@ -1,0 +1,15 @@
+pip install virtualenv
+
+virtualenv -p /usr/bin/python3.8 virtualenv_name
+
+Now at last we just need to activate it, using the command
+
+source virtualenv_name/bin/activate
+
+Then install your packages and run your application or file
+
+python3 -m pip install python-dotenv
+
+python3 -m pip install ibm_watson
+
+python3 -m pip install Flask 
